@@ -1,0 +1,13 @@
+apply plugin: 'application'
+apply plugin: 'groovy'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+  implementation 'de.mkammerer:argon2-jvm:2.7'
+  implementation 'org.codehaus.groovy:groovy-all:3.0.7'
+}
+
+mainClassName = 'example.Main'
